@@ -5,10 +5,12 @@
 // pegar elemento pelo id passar a string na variavel, passar velocidade da animação. e passar valor para deixar visivel ou não
 // neste caso ficará visivel 
 new TypeIt("#animate", {
-    strings: " Especialista em HTML, CSS e Javascript....",
+    strings: " Especialista em HTML, CSS e JavaScript....",
     speed: 100,
     waitUntilVisible: true,
 }).go();
+
+// inicializando a biblioteca do AOS.
 
 AOS.init()
 
