@@ -14,5 +14,5 @@ AOS.init()
 
 // Alerta de formulário em construção ao clicar em enviar
 function btnMsg(){
-    alert("Formulário em Construção!!")
+    alert("Em Construção!!")
 }
