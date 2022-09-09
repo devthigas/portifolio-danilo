@@ -1,0 +1,43 @@
+
+/*  pagina home: visualização de 100%
+    fundo com imagem 
+    overflow não permite que a pagina role para os lados
+    e propriedades do display flex, alinhamento e posicionamento 
+    
+*/
+
+#home{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(180deg, rgba(105, 2, 101, 0.882) 0%, rgba(100, 0, 227, 0.9) 100%);
+}
+
+/* Este atribui está em algumas sessões da pagina, visualização de 100% e propriedades flexbox */
+
+
+.height{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+
+}
+
+.formacao-background{
+    background: linear-gradient(180deg, rgba(105, 2, 101, 0.882) 0%, rgba(100, 0, 227, 0.9) 100%);
+    color: #fff;
+}
+
+.background-sobre{
+    background: rgb(248, 248, 248);
+}
+
+/* Cor da fonte e backgrund em toda pagina */
+
+
